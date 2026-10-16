@@ -1,0 +1,106 @@
+{
+  "adaptive_sampler_strategy": "periodic_hybrid_sphere_continuous_1",
+  "alpha": 0.05,
+  "batch_size": 512,
+  "blend_lambda_max": 1.0,
+  "blend_r_start": 0.2,
+  "blend_r_stop": 0.9,
+  "cache_version": "particle-samplers-v8-current-detector-profile",
+  "candidate_angle_count": 16,
+  "candidate_polar_count": 7,
+  "detector_profile": "current",
+  "eta1_longitudinal": 0.5284822353142307,
+  "eta2_transverse": 0.6321205588285577,
+  "force_recompute": false,
+  "h0_sample_source": "rabi_prefix_raw_data",
+  "h1_kl_diagnostics": true,
+  "h1_sample_source": "histogram_h1_diagnostics",
+  "hist_phase": 0.19,
+  "n_null": 1000,
+  "n_shots": 1024,
+  "n_signal_phase_averaged": 1000,
+  "particle_count": 4608,
+  "particle_shape": [
+    48,
+    1,
+    96
+  ],
+  "particle_spec": {
+    "detuning_count": 0,
+    "detuning_max": 0.0,
+    "detuning_min": 0.0,
+    "drive_phase_count": 96,
+    "multires_final_replay": true,
+    "multires_initial_detuning_count": 5,
+    "multires_initial_shots": 128,
+    "multires_refine_phase_tolerance": 1.0,
+    "particle_mode": "grid",
+    "phase_amplitude_count": 48,
+    "phase_amplitude_max": 1.2,
+    "phase_amplitude_min": 0.02,
+    "phase_amplitude_prior": "log_uniform",
+    "random_particle_count": 512,
+    "random_seed": 24681357,
+    "scheduled_initial_detuning_count": 1,
+    "scheduled_prune_cumulative_mass": 0.999999,
+    "scheduled_prune_relative_threshold": 1e-08,
+    "scheduled_refine_phase_tolerance": 1.0,
+    "smc_detuning_step": 0.001,
+    "smc_drive_phase_step": 0.35,
+    "smc_log_phase_amplitude_step": 0.15,
+    "smc_move_steps": 1,
+    "smc_refine_detuning_center_count": 3,
+    "smc_refine_detuning_coarse_count": 9,
+    "smc_refine_detuning_local_count": 21,
+    "smc_refine_detuning_width": 0.0,
+    "smc_resample_ess_fraction": 0.5
+  },
+  "periodic_hybrid_period": 1,
+  "phase_average_count": 96,
+  "phase_average_mode": "random_per_experiment",
+  "prefix_raw_cache_path": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+  "readout": {
+    "contrast": 0.99,
+    "readout_error": 0.005
+  },
+  "readout_azimuth_period": 3.141592653589793,
+  "readout_objective": "periodic_hybrid",
+  "readout_optimization": "continuous",
+  "readout_space": "sphere",
+  "readout_switch_shot": 1024,
+  "run_preset": "final",
+  "sample_source": "mixed",
+  "sample_sources": {
+    "adaptive": {
+      "H0": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+      "H1": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_690fec0652c29264_adaptive.npz"
+    },
+    "fixed_x": {
+      "H0": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+      "H1": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_7a83c68ae2bf8c5c_fixed_x.npz"
+    },
+    "fixed_z": {
+      "H0": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+      "H1": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_ae67709f6b8a11bc_fixed_z.npz"
+    },
+    "two_axis": {
+      "H0": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+      "H1": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_46205472a87b5625_two_axis.npz"
+    }
+  },
+  "sampler_method": "numba",
+  "sensing_time": 1.0,
+  "strategies": {
+    "adaptive": "Adaptive $L=1$ (IG)",
+    "fixed_x": "Fixed transverse $x$",
+    "fixed_z": "Fixed $z$",
+    "two_axis": "Fixed transverse $x/y$"
+  },
+  "t1_time": 1.0,
+  "t2_time": 1.0,
+  "true_detuning": 0.0,
+  "true_drive_phase_note": "fixed_z is independent of true_drive_phase; transverse H1 samples follow phase_average_mode",
+  "true_drive_phase_values": [],
+  "use_cache": true,
+  "use_prefix_raw_cache": true
+}

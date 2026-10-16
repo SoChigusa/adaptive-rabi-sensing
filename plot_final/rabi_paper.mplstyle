@@ -1,0 +1,19 @@
+# Policy legend order: adaptive, fixed x/y, fixed x, fixed z, oracle.
+# Keep each policy's fits and analytic variants together.
+# Typography from rabi_log_bayes_histograms; keep per-figure size adjustments.
+# Manuscript size reference (2026-09-10): the approved discovery/sensitivity,
+# exponent and polarization plots. Match font size / full exported PDF width,
+# not one absolute point size or the width of an individual subplot.
+# Aim for axis labels ~3.4%, ticks ~2.9-3.0%, legends ~2.6-2.8% of PDF width.
+# For a ~246 pt manuscript column these are ~8.4, ~7.3 and ~6.6 pt.
+# Start with width_pt = 72 * fig.get_figwidth(), then check bbox_inches="tight"
+# output at manuscript scale. Keep enough space for panel titles and colorbars.
+font.family: STIXGeneral
+mathtext.fontset: stix
+font.size: 13
+axes.labelsize: 13
+axes.titlesize: 13
+xtick.labelsize: 11
+ytick.labelsize: 11
+legend.fontsize: 11
+legend.frameon: False

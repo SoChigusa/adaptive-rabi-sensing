@@ -1,0 +1,36 @@
+{
+  "raw_cache": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+  "raw_setup_hash": "63a56163f2d14a64",
+  "alpha": 0.05,
+  "selected_amplitudes": [
+    0.05,
+    0.08,
+    0.1,
+    0.12
+  ],
+  "fit_n_min": 1024,
+  "fit_beta_max": 1.0,
+  "min_failures": 5,
+  "adaptive_f_pol_tail": {
+    "adaptive_l1": 0.6999397453517238,
+    "adaptive_l2": 0.8279502779602985
+  },
+  "finite_n_theory_range": [
+    1024,
+    4096
+  ],
+  "large_signal_range": {
+    "n": [
+      48,
+      96
+    ],
+    "phase": [
+      0.19,
+      0.32
+    ]
+  },
+  "notes": {
+    "fixed_x": "The phase-averaged alternative contains blind phases, so the worst-case Stein exponent is zero.",
+    "adaptive": "The cache directly stores Q_n, A_n, and V_n; no angle-history rerun or fit-inferred f_pol is used."
+  }
+}

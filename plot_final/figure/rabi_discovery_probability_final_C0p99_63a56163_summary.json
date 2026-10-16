@@ -1,0 +1,121 @@
+{
+  "raw_cache_path": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+  "raw_setup_hash": "63a56163f2d14a64",
+  "output_tag": "C0p99_63a56163",
+  "raw_setup": {
+    "preset": "final",
+    "n_shot_max": 4096,
+    "checkpoints": [
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      256,
+      384,
+      512,
+      768,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096
+    ],
+    "n_null": 1000,
+    "n_signal": 1000,
+    "batch_size": 512,
+    "phase_grid": [
+      0.05,
+      0.08,
+      0.1,
+      0.12,
+      0.15,
+      0.19,
+      0.24,
+      0.32,
+      0.4,
+      0.5,
+      0.6
+    ],
+    "sensing_time": 1.0,
+    "t1_time": 1.0,
+    "t2_time": 1.0,
+    "dead_time": 0.0,
+    "detector_profile": "current",
+    "contrast": 0.99,
+    "readout_error": 0.005,
+    "particle_shape": [
+      48,
+      1,
+      96
+    ],
+    "particle_spec": {
+      "particle_mode": "grid",
+      "phase_amplitude_min": 0.02,
+      "phase_amplitude_max": 1.2,
+      "phase_amplitude_count": 48,
+      "phase_amplitude_prior": "log_uniform",
+      "detuning_min": 0.0,
+      "detuning_max": 0.0,
+      "detuning_count": 0,
+      "drive_phase_count": 96,
+      "random_particle_count": 0,
+      "random_seed": 12345,
+      "scheduled_initial_detuning_count": 1,
+      "scheduled_refine_phase_tolerance": 1.0,
+      "scheduled_prune_relative_threshold": 1e-08,
+      "scheduled_prune_cumulative_mass": 0.999999,
+      "smc_resample_ess_fraction": 0.5,
+      "smc_move_steps": 1,
+      "smc_log_phase_amplitude_step": 0.15,
+      "smc_detuning_step": 0.001,
+      "smc_drive_phase_step": 0.35,
+      "smc_refine_detuning_center_count": 3,
+      "smc_refine_detuning_local_count": 21,
+      "smc_refine_detuning_coarse_count": 9,
+      "smc_refine_detuning_width": 0.0,
+      "multires_initial_detuning_count": 5,
+      "multires_initial_shots": 128,
+      "multires_refine_phase_tolerance": 1.0,
+      "multires_final_replay": true
+    },
+    "candidate_angle_count": 16,
+    "candidate_polar_count": 7,
+    "adaptive_periods": [
+      1,
+      2
+    ],
+    "adaptive_sampler_strategies": {
+      "adaptive_l1": "periodic_hybrid_sphere_continuous_1",
+      "adaptive_l2": "periodic_hybrid_sphere_continuous_2"
+    },
+    "phase_average_mode": "random_per_experiment",
+    "strategies": [
+      "fixed_z",
+      "fixed_x",
+      "two_axis",
+      "adaptive_l1",
+      "adaptive_l2"
+    ],
+    "diagnostic_schema": {
+      "predictable_kl": "cumulative D_KL(P0 predictive || H1 posterior predictive)",
+      "predictable_variance": "cumulative conditional variance of log(P0/H1 predictive)",
+      "polarization_design": "cumulative (Q_xx,Q_xy,Q_yy) for transverse readout components"
+    },
+    "cache_version": "prefix-raw-logb-v4-detector-profiles-period-scan"
+  },
+  "z_stars": [
+    1.645
+  ],
+  "alphas": [
+    0.04998490553912137
+  ],
+  "target_powers": [
+    0.5,
+    0.7,
+    0.9,
+    0.95
+  ],
+  "discovery_n_shots": 4096
+}

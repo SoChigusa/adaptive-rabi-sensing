@@ -1,0 +1,2 @@
+strategy,label,test_type,kx_h0_center,ky_h0_center,kx_h0_variance,ky_h0_variance,q_threshold,empirical_alpha,power,power_se,n_signal,n_null
+fixed_x_y_quadrature,Fixed $x/y$ quadrature,two-quadrature radial count deviation,1024.0,1024.0,512.0,512.0,5.939453125,0.05,0.726,0.004460089685196925,10000,10000

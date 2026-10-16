@@ -1,0 +1,215 @@
+{
+  "paper_title": "Adaptive detection of Rabi signals under composite hypotheses",
+  "author": "So Chigusa",
+  "figures": [
+    {
+      "figure": 1,
+      "file": "paper_figures/fig01_learning.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_learning_curves.pdf",
+      "job": "posterior",
+      "reference_sha256": "75a900a41376e567e7528ebad7157b3d99a3bbb48633a84346c2d322650f70a8"
+    },
+    {
+      "figure": 2,
+      "file": "paper_figures/fig02_adaptive_posterior.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_heatmaps_adaptive_paper_2x2.pdf",
+      "job": "posterior",
+      "reference_sha256": "2325a54f000dec5ea53eadb08d9f2c2046c8f1107909ef0096f11f7c00449f34"
+    },
+    {
+      "figure": 3,
+      "file": "paper_figures/fig03_log_bayes.pdf",
+      "generated_file": "plot_final/figure/rabi_log_bayes_histograms_final.pdf",
+      "job": "histograms",
+      "reference_sha256": "97d0ec49189b4cdaccb3992f6d20b950dd007118db3cb174356a83181b14684c"
+    },
+    {
+      "figure": 4,
+      "file": "paper_figures/fig04_power.pdf",
+      "generated_file": "plot_final/figure/rabi_discovery_probability_final_C0p99_63a56163_discovery_n1024_z1.645.pdf",
+      "job": "power",
+      "reference_sha256": "ae81083f379afa5664b96678c3def7c5a435e5b39d6917ecd09d9b6db25efce5"
+    },
+    {
+      "figure": 5,
+      "file": "paper_figures/fig05_sensitivity.pdf",
+      "generated_file": "plot_final/figure/rabi_discovery_probability_final_C0p99_63a56163_sensitivity_PH1_0p7.pdf",
+      "job": "power",
+      "reference_sha256": "8861ba97b1b5a41e9f1a43e1c4fd69115e228042f998101eb0381e225074c0c5"
+    },
+    {
+      "figure": 6,
+      "file": "paper_figures/fig06_type_ii_error.pdf",
+      "generated_file": "plot_final/figure/rabi_beta_exponent_final_C0p99_63a56163_minus_log_beta_phi_0p05.pdf",
+      "job": "exponents",
+      "reference_sha256": "caa08495f8a011e4328fcd61156ac68d14e517f1d2d04d8a31b0b49bee3607c8"
+    },
+    {
+      "figure": 7,
+      "file": "paper_figures/fig07_effective_exponent.pdf",
+      "generated_file": "plot_final/figure/rabi_beta_exponent_final_C0p99_63a56163_relative_entropy_comparison.pdf",
+      "job": "exponents",
+      "reference_sha256": "2008aaed2c1742c09167a090653454fd5130529e7bccbf15780679483d480be8"
+    },
+    {
+      "figure": 8,
+      "file": "paper_figures/fig08_background_posterior.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_heatmaps_background_fake_signal_paper_2x2.pdf",
+      "job": "posterior",
+      "reference_sha256": "5576f6a9cacb14bdd42be550befb2b4d12d8d9e75bb23fd83af5cce32dfd02aa"
+    },
+    {
+      "figure": 9,
+      "file": "paper_figures/fig09_population_posterior.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_heatmaps_fixed_z_paper_2x2.pdf",
+      "job": "posterior",
+      "reference_sha256": "35461ec2e8cb873f591f608eb2f1d48004fe2fd63d2930ee27b95767dfd9b01d"
+    },
+    {
+      "figure": 10,
+      "file": "paper_figures/fig10_fixed_x_posterior.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_heatmaps_fixed_x_paper_2x2.pdf",
+      "job": "posterior",
+      "reference_sha256": "2fdd288a4816e09547b0c9e8e6549de7f4996398e4f5d5a0f3d57f796dcd957e"
+    },
+    {
+      "figure": 11,
+      "file": "paper_figures/fig11_fixed_xy_posterior.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_current_heatmaps_fixed_xy_paper_2x2.pdf",
+      "job": "posterior",
+      "reference_sha256": "802213a0b32f7fafd505952a5c837c0b10f7af6259fffb82a7632a5fcbc761a5"
+    },
+    {
+      "figure": 12,
+      "file": "paper_figures/fig12_high_fidelity_readout.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_final_high_fidelity_readout_angles.pdf",
+      "job": "posterior-high-fidelity",
+      "reference_sha256": "fd0ae6ddb1c9c5dd74037f77b183ad5f6f6f25852866809911155c8fd2002e6c"
+    },
+    {
+      "figure": 13,
+      "file": "paper_figures/fig13_polarization_efficiency.pdf",
+      "generated_file": "plot_final/figure/rabi_discovery_probability_final_C0p999_43fb9772_polarization_efficiency.pdf",
+      "job": "power-high-fidelity",
+      "reference_sha256": "53e35755c6446caf03f18c7bb272cc4ee5e7764c1781a17e493da172b7f336f9"
+    },
+    {
+      "figure": 14,
+      "file": "paper_figures/fig14_high_fidelity_sensitivity.pdf",
+      "generated_file": "plot_final/figure/rabi_discovery_probability_final_C0p999_43fb9772_sensitivity_PH1_0p7.pdf",
+      "job": "power-high-fidelity",
+      "reference_sha256": "fd19bf8893a21579fb51e69a80710f7c1e9ddfab23aef063019af22e75d33ea7"
+    },
+    {
+      "figure": 15,
+      "file": "paper_figures/fig15_detuned_readout.pdf",
+      "generated_file": "plot_final/figure/rabi_posterior_learning_detuned_final_high_fidelity_readout_angles.pdf",
+      "job": "detuned",
+      "reference_sha256": "37c3afe88330ac5840e58d7819f5f7c5903043df627d74acc9f850f7f35dba09"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_46205472a87b5625_two_axis.npz",
+      "bytes": 42896,
+      "sha256": "def069f7fe2496c83e29f9f4c325df7d700d25df506399c0ab041cdf883deb43"
+    },
+    {
+      "file": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_690fec0652c29264_adaptive.npz",
+      "bytes": 45344,
+      "sha256": "ef09389fa622948207a685fe8b1b24fa28e778517fa4fc34374e60cf07550617"
+    },
+    {
+      "file": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_7a83c68ae2bf8c5c_fixed_x.npz",
+      "bytes": 41234,
+      "sha256": "ba09478147d5c5e6298b90174e34a006ae2d8a003dcf2428eddd9b9fbefd63f4"
+    },
+    {
+      "file": "plot_final/cache/rabi_log_bayes_histograms_final_h1_kl_ae67709f6b8a11bc_fixed_z.npz",
+      "bytes": 33333,
+      "sha256": "f59f849b61937d2e1909c038f4f4983dd551b041cee66f5bf2d5069b75aa1a5e"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_detuned_final_68b14493a8b73a9f_H0.npz",
+      "bytes": 420208,
+      "sha256": "1cacf111dd308270e7779cd8bb733963aceb0f8df05c9936e02a302e1f8733e6"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_detuned_final_high_fidelity_9df815a1dfac1ee9_H1.npz",
+      "bytes": 448041,
+      "sha256": "dac0dc9bc37d099e0bf3f50157bd067b70e8f1c5ff32ea2587c51467d4d52758"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_05b3f2bc813c2303_fixed_x_H1.npz",
+      "bytes": 333184,
+      "sha256": "185be1aeaae2969929a8d9f62e7015189ad7186373356d6dbd8793beab197b1d"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_3b6afe8478541231_H0.npz",
+      "bytes": 487633,
+      "sha256": "b1810e58dc2f4fa878adc2db07a3b32744dbe7a6c38aa62de57d862bba431494"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_69f13cee9b36575c_H1.npz",
+      "bytes": 495337,
+      "sha256": "a4629a0eb746ffa2aafeda8958dafa2d1424ace33d468ce7b5854f8869f454d6"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_b285e0c407160c29_bayes_drift_H1.npz",
+      "bytes": 200470,
+      "sha256": "4092df56f34ee3a739bf7b8ca07948f2a54d1b3a85f6288ed384b5cc3336a70b"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_b3cca241214bc8e6_fixed_z_H1.npz",
+      "bytes": 152658,
+      "sha256": "305f2534448316d88d866c547dfa2ff89cbce8697c467da9b22e7e0c643528e4"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_current_ba6f5d3a461fd82d_fixed_xy_H1.npz",
+      "bytes": 413595,
+      "sha256": "4985e1e9585dede9f964ee2fca9da1ba3f88e1b92fb002641a57a03e04fcbb67"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_0b1f820cbcc9e464_H1.npz",
+      "bytes": 469914,
+      "sha256": "9d14ccbf76dc2e07f14300b917609b7c3dbc11ee01c01835f58d35ad7433859d"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_37da1440e49f1ecb_fixed_xy_H1.npz",
+      "bytes": 435461,
+      "sha256": "d7358b91b8e423d77a62d3ecb0e3ed9c2123f5288f61650790f17f681f9f0120"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_56d574e33505dd2d_fixed_x_H1.npz",
+      "bytes": 331247,
+      "sha256": "b52f4ddfc5c0824d3398037e0b451dc5ac015c4690dd7a11717abce1cc28ae83"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_c76ee7f81f5bca1a_fixed_z_H1.npz",
+      "bytes": 145784,
+      "sha256": "bfc8ec9bdc6484fc3b2549e4716214c2f46df3f525c64de92d6a0b05bf69cd31"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_ced3bc879ac22c09_bayes_drift_H1.npz",
+      "bytes": 192245,
+      "sha256": "7efe66c256c8ee327d4fca8412e70ee675898ed8fe4c0191994edd0d5de212a7"
+    },
+    {
+      "file": "plot_final/cache/rabi_posterior_learning_final_high_fidelity_d8be854b1feeb60a_H0.npz",
+      "bytes": 500334,
+      "sha256": "d0cddd9781787a20c8ea347e9ef4bb9f49d6d834d3d029235011fec3884e2478"
+    },
+    {
+      "file": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_43fb9772170a2a1a.npz",
+      "bytes": 14160726,
+      "sha256": "84d674e37c5621e0bdb6327123d64fd42a8f93588d568b2c7de45ef0f3ab1625"
+    },
+    {
+      "file": "plot_final/cache/rabi_prefix_sensitivity_vs_shots_final_63a56163f2d14a64.npz",
+      "bytes": 14043572,
+      "sha256": "64422dbf39a97781e840b214bb2069bc10a8407a55f9025693190fa3c5a0d084"
+    }
+  ],
+  "paper_url": "https://arxiv.org/abs/2609.16119",
+  "release": "1.0.0"
+}

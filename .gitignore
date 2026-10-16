@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+.ipynb_checkpoints/
+.DS_Store
+plot_final/figure/*.pdf
+plot_final/figure/*.png

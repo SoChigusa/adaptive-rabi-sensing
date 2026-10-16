@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the accompanying paper and identify the repository version."
+title: "Adaptive Rabi sensing: code and data"
+type: software
+version: 1.0.0
+date-released: 2026-10-16
+authors:
+  - family-names: Chigusa
+    given-names: So
+    orcid: "https://orcid.org/0000-0001-6005-4447"
+repository-code: "https://github.com/SoChigusa/adaptive-rabi-sensing"
+url: "https://github.com/SoChigusa/adaptive-rabi-sensing"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Adaptive detection of Rabi signals under composite hypotheses"
+  authors:
+    - family-names: Chigusa
+      given-names: So
+      orcid: "https://orcid.org/0000-0001-6005-4447"
+  journal: arXiv
+  year: 2026
+  doi: "10.48550/arXiv.2609.16119"
+  url: "https://arxiv.org/abs/2609.16119"

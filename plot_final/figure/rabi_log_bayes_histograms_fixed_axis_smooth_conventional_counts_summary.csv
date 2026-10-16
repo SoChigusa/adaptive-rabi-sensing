@@ -1,0 +1,4 @@
+strategy,label,test_type,h0_center,threshold_statistic,boundary_reject_probability,lower_count_cut,upper_count_cut,empirical_alpha,power,power_se,n_signal,n_null,theory_alpha,theory_power,theory_method
+fixed_z,Fixed $z$ count,randomized upper-tail count,10.188800000000004,16.0,0.8045416726086124,,16.0,0.04969391097320674,0.41122952036669846,0.0010651353079222548,200000,200000,0.049999999999999906,0.4090505320046241,exact binomial
+fixed_x,Fixed $x$ count,randomized two-sided count deviation,512.0,31.0,0.1402794034856167,481.0,543.0,0.0494361438364973,0.6223267172368684,0.0010801539558474153,200000,200000,0.05,0.6237870495196518,phase-averaged exact binomial
+two_axis,Fixed $x/y$ quadrature,randomized two-quadrature radial deviation,2.0,5.9765625,0.060791652088491646,,,0.050598831234692915,0.6578230134953809,0.0010604521231149969,200000,200000,0.050000000000000024,0.6572382416897734,phase-averaged exact binomial
